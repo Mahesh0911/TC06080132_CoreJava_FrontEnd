@@ -1,0 +1,10 @@
+package multithreading;
+
+public class Thread_Interference_Sync {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

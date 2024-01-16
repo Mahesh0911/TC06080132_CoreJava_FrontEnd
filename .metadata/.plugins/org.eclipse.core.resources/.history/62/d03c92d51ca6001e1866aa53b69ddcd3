@@ -1,0 +1,38 @@
+package database_connectivity;
+
+public class DBDemo {
+
+	public static void main(String[] args)throws ClassNotFoundException {
+		Class.forName("com.mysql.cj.jdbc.Driver");
+
+	}
+
+}
+
+/*
+ * 	JDBC : Java Database Connectivity
+ * 	MySQL
+ * 	JDBC API
+ * 	DRIVER : Thin Driver - Type IV - Fully Written Java
+ * 	MYSQL Driver
+ * 	
+ * 	Steps :
+ * 		1. Register the Driver
+ * 		2. Establish the connection
+ * 		3. Prepare Statement
+ * 		4. Execute the Query
+ * 		5. ResultSet
+ * 		6. Close the connection
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ *
+ */

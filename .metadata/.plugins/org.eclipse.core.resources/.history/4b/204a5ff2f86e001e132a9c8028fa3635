@@ -1,0 +1,28 @@
+package arrays;
+
+public class DateSwap {
+	private int d;
+	private int m;
+	private int y;
+	
+	public DateSwap() {}
+	
+	public DateSwap(int d, int m, int y) {
+		super();
+		this.d = d;
+		this.m = m;
+		this.y = y;
+	}
+
+
+	public String toString() {
+		return "DateSwap [d=" + d + ", m=" + m + ", y=" + y + "]";
+	}
+
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

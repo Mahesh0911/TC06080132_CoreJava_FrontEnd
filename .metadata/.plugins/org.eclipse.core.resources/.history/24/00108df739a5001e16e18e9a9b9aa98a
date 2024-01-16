@@ -1,0 +1,30 @@
+package multithreading;
+
+public class MyThreadDemo implements Runnable{
+@Override
+public void run() {
+for (int i = 0; i < 5; i++) {
+	System.out.println(Thread.currentThread().getName()+" "+i);
+	
+	try {
+		Thread.sleep(1000);
+	} catch (InterruptedException e) {
+		e.printStackTrace();
+	}
+}	
+}
+	
+	public static void main(String[] args) {
+		
+		MyThreadDemo m1=new MyThreadDemo();
+		Thread t1=new Thread(m1);
+		
+		MyThreadDemo m2=new MyThreadDemo();
+		Thread t2=new Thread(m2);
+		
+		MyThreadDemo m3=new MyThreadDemo();
+		Thread t3=new Thread(m3);
+		
+	}
+
+}

@@ -1,0 +1,53 @@
+package multithreading;
+
+public class MyThreadDemo implements Runnable{
+@Override
+public void run() {
+for (int i = 0; i < 5; i++) {
+	System.out.println(Thread.currentThread().getName()+" "+i);
+	
+	try {
+		Thread.sleep(1000);
+	} catch (InterruptedException e) {
+		e.printStackTrace();
+	}
+}	
+}
+	
+	public static void main(String[] args) {
+		
+		MyThreadDemo m1=new MyThreadDemo();
+		Thread t1=new Thread(m1);
+		
+		MyThreadDemo m2=new MyThreadDemo();
+		Thread t2=new Thread(m2);
+		
+		MyThreadDemo m3=new MyThreadDemo();
+		Thread t3=new Thread(m3);
+		
+		t1.setName("ONE");
+		t2.setName("TWO");
+		t3.setName("THREE");
+		
+		t1.setPriority(5);
+		t2.setPriority(10);
+		t3.setPriority(1);
+		
+		t1.start();
+		t2.start();
+		t3.start();
+	}
+
+}
+
+/*
+ *	Thread : *** Thread run at Hardware level not at software level. ***
+ *		
+ *		Used by thread scheduler to decide when each thread should be allowed to run.
+ *		Threads of equal priority compete with for CPU.
+ *		Thread scheduler picks up the highest priority thread that is currently runnable.
+ *		Priority levels range from 1(MIN_PRIORITY) to 10(MAX_PRIORITY).
+ *		5(NORM_PRIORITY) is the default priority level.
+ * 
+ * 
+ */

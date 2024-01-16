@@ -1,0 +1,9 @@
+package abstract_class;
+
+public class BOI extends Bank{
+	
+	public float getROI() {
+		return 6.5f;
+	}
+	
+}

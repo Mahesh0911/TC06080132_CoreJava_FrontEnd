@@ -1,0 +1,34 @@
+package multithreading;
+
+public class MultithreadingDemo {
+	
+	public static void main(String[] args) {
+		
+	}
+}
+
+
+/*
+ *	Demystifying Multi :
+ *		Multitasking : doing more than one task at a time.
+ *		Multiprocessing : running more than one process simultaneously.
+ *		WinAmp = listening songs
+ *		WinWord = creating a document
+ *		Multithreading =running multiple threads concurrently
+ *		
+ * 
+ * 	MultiProcessing - Context Switch
+ * 		When OS switching between process to process , data needs to be stored temporarily.
+ * 		Data to be stored : Context
+ * 			-Instruction Set
+ * 			-Current Instruction
+ * 			-Current data structures in use
+ * 		Processes do not share the same data,hence context switch is resource heavy.
+ * 		Scheduling of process is controlled by OS : 
+ * 			two ways :
+ * 				1) Pre-emptive
+ * 				2) Non Preemptive (Co operative)
+ * 
+ * 
+ * 
+ */

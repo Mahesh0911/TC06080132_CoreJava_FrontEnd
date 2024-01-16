@@ -1,0 +1,26 @@
+package collections;
+
+public class ComparatorInterface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+/*
+ *	Comparator Interface :
+ *		Comparator interface present in "java.util" package.
+ *	  	This interface defines the 2 methods :
+ *			1)	public int compare(Object o1,Object o2);
+ *			2)	public boolean equals(Object obj);
+ *
+ *		Whenever we are implementing Comparator interface we have to provide implementation for compare() method.
+ *		implementing equals() method is optional because it is already available from Object class through inheritance
+ *
+ *		Note :
+ *			Whenever we are defining our own customized sorting by Comparator then the objects 
+ *			need not be Comparable.
+ */

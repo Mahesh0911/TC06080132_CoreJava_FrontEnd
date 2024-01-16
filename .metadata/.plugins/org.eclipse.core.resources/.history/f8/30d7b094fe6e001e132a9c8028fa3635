@@ -1,0 +1,49 @@
+package arrays;
+
+public class Array {
+	private int d;
+	private int m;
+	private int y;
+	
+	public Array() {}
+	
+	public Array(int d, int m, int y) {
+		this.d = d;
+		this.m = m;
+		this.y = y;
+	}
+
+
+	public String toString() {
+		return "DateSwap [d=" + d + ", m=" + m + ", y=" + y + "]";
+	}
+
+
+	public static void swap(Array[] arr) {
+//		This will swap swap the dates in main method. Swapping in java done using the arrays.
+		Array  temp;
+		temp=arr[0];
+		arr[0]=arr[1];
+		arr[1]=temp;
+		
+		
+	}
+	public static void main(String[] args) {
+		Array d[]=new Array[2];
+		d[0]=new Array(10,10,2023);
+		d[1]=new Array(10,11,2020);
+		
+		System.out.println("Before swap function call : ");
+		System.out.println("d1 :"+d[0]);
+		System.out.println("d2 :"+d[1]);
+
+		Array.swap(d);
+		
+		System.out.println("After swap function call : ");
+		System.out.println("d1 :"+d[0]);
+		System.out.println("d2 :"+d[1]);
+		
+		
+	}
+
+}

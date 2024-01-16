@@ -1,0 +1,14 @@
+package database_connectivity;
+
+public class DBDemo {
+
+	public DBDemo() {
+		
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

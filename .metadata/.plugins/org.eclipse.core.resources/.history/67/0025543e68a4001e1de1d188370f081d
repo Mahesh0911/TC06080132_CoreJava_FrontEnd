@@ -1,0 +1,31 @@
+package collections;
+
+public class HashMaps {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+/*
+ * Map Interface :
+ * 	If we want to represent group of objects as key-value pairs.
+ * 	No duplicate keys , but values can be duplicate.
+ * 	Each key-value pair is one entry.
+ * 	Map interface is not child interface of Collection and hence we can't apply Collection interface methods here.
+ *  
+ *	HashMap : 
+ *		Underlying data structure is Hashtable.
+ *		Stores in pairs of key-values.
+ *		Duplicates keys not allowed.
+ * 		Insertion order is not preserved , it is based on Hash Keys.
+ *		null key not allowed.
+ *		Every method present inside Hashtable is synchronized and hence Hashtable is thread safe. 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */

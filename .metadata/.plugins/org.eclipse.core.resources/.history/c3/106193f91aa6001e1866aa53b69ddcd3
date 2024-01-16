@@ -1,0 +1,16 @@
+package multithreading;
+
+public class Factorial {
+	public void fact(int n) {
+		int fact=1;
+		for(int i=2;i<=n;i++) {
+			fact*=i;
+			System.out.println("Fact : "+fact);
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+package collections;
+
+public class HashSets {
+
+	public HashSets() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

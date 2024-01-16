@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;arrays.DateSwap&apos; to &apos;Array&apos;&#x0D;&#x0A;- Original project: &apos;containment&apos;&#x0D;&#x0A;- Original element: &apos;arrays.DateSwap&apos;&#x0D;&#x0A;- Renamed element: &apos;arrays.Array&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DateSwap&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;arrays{Array.java[DateSwap" matchStrategy="1" name="Array" qualified="false" references="true" similarDeclarations="false" stamp="1697773399902" textual="false" version="1.0"/>
+</session>

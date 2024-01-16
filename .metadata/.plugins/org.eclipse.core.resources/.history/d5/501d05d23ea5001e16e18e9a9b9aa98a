@@ -1,0 +1,23 @@
+package multithreading;
+
+public class Test {
+	public static void main(String[] args) {
+
+		System.out.println(Thread.currentThread().getName()); //main
+		System.out.println(Thread.currentThread().getThreadGroup().getName()); //
+		System.out.println(Thread.currentThread().getThreadGroup().getParent().getName());
+		
+	}
+
+}
+
+
+
+/* 	ThreadGroup :
+ * 		It would be useful to categorize them by functionality, so that you can work simultaneously with number of threads.
+ * 		Class ThreadGroup contains methods for creating and manipulating group of threads.
+ * 		ThreadGroup(ThreadGroup parent,String name)
+ *
+ *		main function run as thread name - "main"
+ *
+ */

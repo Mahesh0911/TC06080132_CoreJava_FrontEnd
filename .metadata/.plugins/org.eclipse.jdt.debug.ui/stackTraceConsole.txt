@@ -1,0 +1,4 @@
+Student s=new Student(22,"Mahesh",12.12f);
+		
+		Student s2=(Student)s.clone();
+		System.out.println(s2);

@@ -1,0 +1,9 @@
+package multithreading;
+
+public class MyThread_Sync_2 {
+
+	public MyThread_Sync_2() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,10 @@
+EXERCISE- 01 : 
+    1. A class constructor is called when an object of that class is created.
+
+    2. If you create 5 objects of a class, the constructor will be called 5 times.
+
+    3. Constructors don't have a return type in their declaration. They have the same name as the class.
+
+    4. Constructors are used to initialize the attributes or properties of an object when it's created.
+
+

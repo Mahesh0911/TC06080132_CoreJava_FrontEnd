@@ -1,0 +1,100 @@
+*********************************************   TNS program notes    *************************************
+Name : Mahesh Dudhe
+TNS ID : TC06080132
+**********************************************************************************************************
+looping statement : 
+	1. for loop: 
+		syntax :
+		for(init;condition;update){
+			//body
+		}
+	
+	2. while loop:
+		//initialisation
+		while(condition){
+			//body
+			//update 
+		}
+
+	3. do while :
+		do{
+			//body
+			//update
+		}while(condition);
+		
+	4. nested loop statements:
+		//loop inside the other loop 
+
+	//access specifiers : 
+		1) default : if not specified anything then class/members are accessible in only within the given package
+		2) private : accessible only within the class  -> (encapsulation) private members are accessed using the getters/setters in class
+		3) public : accessible in other packages also
+		4) protected : accessible in within the child classes
+
+
+		Question : 
+			Why java is high level language ? 
+
+	//Containment :
+		One object is part of the another object.
+
+
+	assigmnment 31 & 32 & 33 :
+		31. create a class MathOperation with two data members x and y to store openrand and third data number R 
+			to store result of opreation.
+			create method members :
+			init- to input x and y from user
+			add to add the x and y and store in R
+			multiply to multiply x and y and store in result R
+			power to x^y and store in result R
+			display to display result R
+		32. create a class MathOperation conataining method multiply to calculate multiplication of following arguments
+			two integers
+			thre floats
+			all elements of array
+			one double and one integer
+		33. Create class Person with properties (name and age) with following features.
+			a.default age of person should be 18
+			b.a person object can be initialised with name and age
+			c. method to display name and age of the person 
+		42. create a class student with two members : rollno and percentage...
+			.......... ...
+			...........(on whatsapp).
+***************************************************
+		44. Create an abstract class 'Processor' with int member variable data and method showData to display 
+			data value . Create abstract method process() to define processing of member data.	
+				a. 	Create a class factorial using abstract class Processor to calculate and print 
+					factorial of a number by overriding the process method.
+				b. 	Create a class Circle using abstract class Processor to calculate and print area of a circle 
+					by overriding the process method.
+				Ask user to enter choice  (factorial or circle area).
+
+		46. Explain the importance of toString() and equals() method of the Object class and 
+			override them on class Employee(empid,name,salary).
+				a.	Create class for main method (say XYZ) and accept five employees information and store in an array. 
+					Also ensure if entered empid already exist or not (use equals method).
+				b.	Display all employee info using toString() method.
+
+		37. Make list of Students having name, roll no., age, score. Write a program to accept 10 students record and arrange the Students based on the score group.
+			[0-50],[50-65],[65-80],[80-100].
+		
+		38. Create class Tile to store the edge length of a square tile, and create another class Floor to store length and width of a rectangular floor.
+			Add method totalTiles (Tile t) in Floor class with Tile as argument to calculate the whole number of tiles needed to cover the floor completely.
+
+		40. Create class OneBHK with instance variable roomArea, hallArea and price
+				a. Create default and parameterized constructor;
+				b. Method show() : to print OneBHK data member information;
+			
+			Create another class TwoBHK which has all the properties and behaviour of OneBHK and a new instance variable rooom2Area.
+				a. Create default and parameterized constructor;
+				b. Method show(): to print all data member information;
+			Write main function in another class(Say XYZ) and store three TwoBHK flat's information and print information using show method. Also print total amount of all flats.
+
+		41. Create three classes
+				* Faculty (facultyid, salary)
+				* FullTimeFaculty (basic,allowance) inherits class Faculty
+				* PartTimeFaculty (hour,rate) inherits class Faculty
+			Create a method for accepting input in FullTimeFaculty and PartTimeFaculty But salary should not be accepted. Salary is calculated on the basis of (basic + allowance) for FullTimeFaculty and (hour*rate) for PartTimeFaculty. Also create method in above classes to display faculty data.
+			Create another class(say XYZ) for main method and store 2 fulltime and 2 parttime faculty information, Also print those details.
+
+		
